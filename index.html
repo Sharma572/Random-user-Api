@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <button id="fullDetails" onclick="showFulldetails()"><img class="btn_logo" src="detail_btn.png" alt="deatails-btn"></button>
+      <div class="img-container">
+        <img src="" id="image" alt="img" />
+      </div>
+      <h3 id="name">Raunak sharma</h3>
+
+      <div class="user_info">
+        <div class="buttons">
+          <button id="age" data-attr="age">
+            <img
+              class="btn_logo"
+              src="age.png"
+              alt="phone"
+            />
+          </button>
+          <button id="email" data-attr="email">
+            <img
+              class="btn_logo"
+              onmouseover="showEmail()"
+              onmouseout="hideEmail()"
+              src="gmail.png"
+              alt="gmail_logo"
+            />
+          </button>
+          <button id="phone" data-attr="phone">
+            <img
+              class="btn_logo"
+              src="telephone.png"
+              alt="phone"
+            />
+          </button>
+          <button id="gender" data-attr="gender">
+            <img
+              class="btn_logo"
+              src="gender.png"
+              alt="phone"
+            />
+          </button>
+        </div>
+        <div class="display_details">
+          <div id="additional-info">Additional info</div>
+        </div>
+      </div>
+
+      <div class="btn_container">
+        <!-- <button id="fullDetails"><img class="btn_logo" src="detail_btn.png" alt="deatails-btn"></button> -->
+        <button id="getUser">Next User</button>
+      </div>
+     
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
