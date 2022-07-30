@@ -8,58 +8,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Header of App -->
+    <header>
+      <h1>Random User Generator</h1>
+      <p>
+        This app generates random users data. It uses an
+        <a href="https://randomuser.me/api/">API</a>.
+      </p>
+    </header>
+    <!-- card container -->
     <div class="container">
-        <button id="fullDetails" onclick="showFulldetails()"><img class="btn_logo" src="detail_btn.png" alt="deatails-btn"></button>
+      <a href="getFulldetails.html"
+        ><img class="btn_logo" src="detail_btn.png" alt="deatails-btn"
+      /></a>
+
       <div class="img-container">
-        <img src="" id="image" alt="img" />
+        <img
+          src="https://media.istockphoto.com/photos/portrait-of-a-man-using-a-computer-in-a-modern-office-picture-id1344688156?b=1&k=20&m=1344688156&s=170667a&w=0&h=GWBMc5h9yv3gIKjvlbcfpz9UgdvCDM2i3kyNoZKL8UY="
+          id="image"
+          alt="img"
+        />
       </div>
       <h3 id="name">Raunak sharma</h3>
 
-      <div class="user_info">
-        <div class="buttons">
-          <button id="age" data-attr="age">
-            <img
-              class="btn_logo"
-              src="age.png"
-              alt="phone"
-            />
-          </button>
-          <button id="email" data-attr="email">
-            <img
-              class="btn_logo"
-              onmouseover="showEmail()"
-              onmouseout="hideEmail()"
-              src="gmail.png"
-              alt="gmail_logo"
-            />
-          </button>
-          <button id="phone" data-attr="phone">
-            <img
-              class="btn_logo"
-              src="telephone.png"
-              alt="phone"
-            />
-          </button>
-          <button id="gender" data-attr="gender">
-            <img
-              class="btn_logo"
-              src="gender.png"
-              alt="phone"
-            />
-          </button>
-        </div>
-        <div class="display_details">
-          <div id="additional-info">Additional info</div>
+      <div class="display_details">
+        <div class="user_data_container">
+          <div class="data_title">
+            <h2>Age :</h2>
+            <h2>Email :</h2>
+            <h2>Phone :</h2>
+
+            <h2>Country:</h2>
+          </div>
+          <div class="user_data">
+            <h3 id="age">24</h3>
+            <h3 id="email">raunak0097@gmail.com</h3>
+            <h3 id="phone">8882449987</h3>
+            <h3 id="country">India</h3>
+          </div>
         </div>
       </div>
-
       <div class="btn_container">
-        <!-- <button id="fullDetails"><img class="btn_logo" src="detail_btn.png" alt="deatails-btn"></button> -->
         <button id="getUser">Next User</button>
       </div>
-     
     </div>
 
+    <!-- JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>
