@@ -58,3 +58,6 @@
  
  The project Random User Generator App is a mini project JavaScript. In which I have used HTML in little amount, CSS for styling and 
  JavaScript to handle the <a href="https://randomuser.me/api/">Api call</a> .
+
+## Click for preview
+<a href="https://coruscating-quokka-ba3d27.netlify.app/">Visit here</a>
