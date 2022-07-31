@@ -2,7 +2,7 @@
 
 #### By Raunak Sharma
 
-<a href="https://randomuser.me/api/">Api call</a>
+<a href="https://randomuser.me/api/">Api url</a>
 
 # Description
 
